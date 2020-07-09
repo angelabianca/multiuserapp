@@ -19,5 +19,4 @@ public interface UserRepository extends JpaRepository<UserImpl, Long> {
 		return save(new UserImpl(name));
 	}
 
-
 }
