@@ -1,10 +1,7 @@
 package ch.zli.m223.ksh17a.angela.meixner.multiuserapp.repository.user;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.User;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.UserImpl;
 
