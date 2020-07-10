@@ -10,7 +10,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.MemoImpl;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Entity(name = "User")
 public class UserImpl implements User {
 	

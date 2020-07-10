@@ -8,7 +8,11 @@ import org.springframework.stereotype.Component;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.User;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.repository.memo.MemoRepository;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.repository.user.UserRepository;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Component
 public class ServerInitialize implements ApplicationRunner {
 	

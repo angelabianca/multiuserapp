@@ -9,7 +9,11 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -17,7 +21,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.authorizeRequests()
-				.antMatchers("/", "/home").permitAll()
+				.antMatchers("/", "/home", "/rest/user/**,/swagger-ui/**").permitAll()
 				.anyRequest().authenticated()
 				.and()
 			.formLogin()
@@ -25,7 +29,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.permitAll()
 				.and()
 			.logout()
-				.permitAll();
+				.permitAll()
+				.and()
+				.csrf().disable()
+			;
 	}
 
 	@Bean

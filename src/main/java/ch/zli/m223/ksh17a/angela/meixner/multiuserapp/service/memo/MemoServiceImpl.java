@@ -6,7 +6,11 @@ import org.springframework.stereotype.Service;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.Memo;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.MemoDto;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.repository.memo.MemoRepository;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Service
 public class MemoServiceImpl implements MemoService {
 	

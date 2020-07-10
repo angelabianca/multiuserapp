@@ -9,7 +9,11 @@ import javax.persistence.ManyToOne;
 
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.User;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.UserImpl;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Entity(name = "Memo")
 public class MemoImpl implements Memo {
 	

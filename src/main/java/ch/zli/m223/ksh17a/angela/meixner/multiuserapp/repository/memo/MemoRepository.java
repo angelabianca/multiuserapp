@@ -6,7 +6,11 @@ import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.Memo;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.MemoImpl;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.User;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.UserImpl;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 public interface MemoRepository extends JpaRepository<MemoImpl, Long> {
 	
 	List<Memo> findMemoByUserId(Long UserId);

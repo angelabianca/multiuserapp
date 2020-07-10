@@ -3,7 +3,11 @@ package ch.zli.m223.ksh17a.angela.meixner.multiuserapp.init;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
 

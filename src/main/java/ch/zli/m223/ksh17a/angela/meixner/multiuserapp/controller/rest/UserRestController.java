@@ -11,7 +11,11 @@ import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.memo.MemoDto;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.UserDto;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.service.memo.MemoService;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.service.user.UserService;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @RestController
 public class UserRestController {
 	

@@ -11,7 +11,11 @@ import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.model.user.UserDto;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.repository.user.UserRepository;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.service.exceptions.UserAlreadyExistsException;
 import ch.zli.m223.ksh17a.angela.meixner.multiuserapp.service.exceptions.InvalidParamException;
-
+/*
+ * @author Angela Meixner
+ * @version 1.5
+ * @date 10.07.20
+ */
 @Service
 public class UserServiceImpl implements UserService {
 	
